@@ -1,0 +1,15 @@
+baseURL = 'https://vem882.github.io/'
+languageCode = 'en-us'
+title = 'Vem882 Blog'
+
+[params]
+  description = "Testi BLogi"
+    dateFormat = "Jan 2, 2006"
+
+[taxonomies]
+  category = "categories"
+  author = "authors"
+
+  [caches]
+  [caches.images]
+    dir = ':cacheDir/images'
